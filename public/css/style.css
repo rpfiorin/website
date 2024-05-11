@@ -1,0 +1,132 @@
+/* CSS principal */
+
+* {
+/* Faz reset para todos os elementos */
+	margin: 0;
+  	padding: 0;
+}
+
+body {
+    /* Define base da fonte */
+	font-size: 15px;
+	font-family: Arial;
+    /* Pode ser apenas ddd nesse caso */
+	background: #708090;
+}
+
+a {
+	color: #708090;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+#tudo {
+	background: #fff;
+	width: 1000px;
+	/* Padroniza layout */
+	margin: 0 auto;
+}
+/* ------------------------- */
+
+#topo {
+	font-size: 42px;
+	text-align: center;
+    /* Define distancia das laterais */
+	padding: 43px 20px;
+	background: #222222;
+	color: #fff;
+}
+#topo a {
+	color: #fff;
+}
+#topo a:hover {
+	text-decoration: none;
+}
+
+/* Estiliza menus */
+#menu1 {
+	padding: 1.25em;
+    /* Espessura, tipo e cor */
+	border-bottom: 1px solid #ddd;
+	display: flex;
+}
+#menu1 ul {
+	list-style: none;
+}
+#menu1 ul li {
+	display: inline;
+	margin-right: 35px;
+}
+#menu1 ul li.active a {
+	color: #e9423a;
+}
+
+#menu2 {
+	display: inline;
+}
+#menu2 ul {
+	list-style: none;
+}
+#menu2 ul li {
+	margin-right: 0;
+}
+#menu2 ul li a {
+	margin-left: 615px;
+}
+#menu2 ul li.active a {
+	color: #e9423a;
+}
+/* ------------------ */
+
+#conteudo {
+	padding: 1.25em;
+	min-height: 695px;
+}
+
+/* Define espaçamento entre paragrafo de noticias e conteudos */
+#conteudo h3 {
+	height: 120px;
+}
+
+#conteudo h4 a {
+	text-decoration: none;
+}
+
+#conteudo p {
+	color: #708090;
+}
+#conteudo p a {
+	text-decoration: none;
+}
+
+#btn {	
+	/* Define tamanho */
+	height: 52px;
+	width: 130px;
+	/* Estiliza */
+	background: white;
+	color: black;
+	font-family: Arial Black;
+	font-size: 12px;
+	cursor: pointer;
+	/* Atribui borda */
+	border-color: #708090;
+	border-radius: 5px;
+	/* Centraliza */
+	margin-top: 10%;
+	margin-left: 42%;
+	margin-right: 41px;
+}
+
+
+/* --------------------- */
+
+#rodape {
+	padding: 1em;
+	background: #222222;
+	color: #fff;
+	text-align: center;
+	height: 15px;
+}
